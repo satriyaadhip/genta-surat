@@ -116,7 +116,7 @@
                     <?php } else if ($this->session->userdata('role_id') == 3) { ?>
                         <div class="col-12 p-4">
 							<div class="row">
-								<div id="carouselExampleIndicators" class="carousel slide col-12 mx-auto" data-bs-ride="carousel" style="max-width: 1200px; max-height: 700px; overflow: hidden;">
+								<div id="carouselExampleIndicators" class="carousel slide col-12 mx-auto" style="max-width: 1200px; max-height: 700px; overflow: hidden;">
 									<ol class="carousel-indicators">
 										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">Pizza</li>
 										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -206,15 +206,11 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-lg-3 p-4 card shadow-none mx-auto" style="border-radius: 18px">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h5 class="text-dark">
-                                                <strong>Butuh bantuan?</strong>
-                                            </h5>
-                                        </div>
-                                            
-                                    <div class="row">
-                                    <div class="col-lg-12 p-1">
+                                    <div class="page-title">
+                                        <h5>
+                                            <strong>Butuh bantuan?</strong>
+                                        </h5>
+                                    </div>
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 122.88 122.27" width="24px" height="24px" style="enable-background:new 0 0 122.88 122.27;" xml:space="preserve">
         <g>
@@ -228,9 +224,6 @@
             c-3.21,2.33-6.86,5.02-5.61,8.18L33.84,50.25z"/>
         </g>
     </svg>
-    <p>0859-5905-8565</p>
-                    </div>
-
 
                                 </div>
                             </div>

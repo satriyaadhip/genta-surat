@@ -27,7 +27,7 @@
 						<form action="<?= base_url('administrator-login-proses'); ?>" method="post" enctype="multipart/form-data">
 								<label for="username">Alamat Email</label>
 								<div class="position-relative">
-									<input type="email" name="email" class="form-control" id="username">
+									<input type="text" name="email" class="form-control" id="username">
 									<div class="form-control-icon">
 										<i data-feather="envelope"></i>
 									</div>

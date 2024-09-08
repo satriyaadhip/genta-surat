@@ -26,7 +26,7 @@ class Administrator extends CI_Controller
         $email = $this->input->post('email');
         $password = $this->input->post('password');
 
-        if ($this->form_validation->run() == FALSE) {
+        if ($this->form_validation->run() == TRUE) {
             $this->session->set_flashdata('error', 'Terdapat kesalahan');
             $this->index();
         } else {
@@ -45,11 +45,11 @@ class Administrator extends CI_Controller
                     redirect('dashboard', 'refresh');
                 } else {
                     $this->session->set_flashdata('danger', 'Password salah');
-                    redirect('administrator/login', 'refresh');
+                    redirect('login', 'refresh');
                 }
             } else {
                 $this->session->set_flashdata('error', 'Email tidak terdaftar atau salah');
-                redirect('administrator/login', 'refresh');
+                redirect('login', 'refresh');
             }
         }
     }
